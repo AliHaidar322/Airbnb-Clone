@@ -27,7 +27,9 @@
                 <span><%= humanized_money_with_symbol(property.price_cents)%></span> night
                 </p>
             </div>
-            <p class="font-medium text-black"> &#9733; 4.8</p>
+            <p class="flex justify-end flex-row font-medium text-black">
+              <span>&#9733;</span> <%= property.average_final_rating.round(2)%>
+            </p>
           </div>
         </div>
       <% end %>
