@@ -25,6 +25,6 @@ group :development do
 end
 
 
-gem "tailwindcss-rails", "~> 3.0"
+gem "tailwindcss-rails", "~> 3.3"
 
 gem "devise", "~> 4.9"
